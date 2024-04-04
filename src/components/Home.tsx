@@ -23,12 +23,7 @@ const Home = () => {
         <span className="absolute w-full top-[30%] flex flex-col items-center justify-center text-[40px] text-white z-30">
           <p className="text-[18px] font-medium">Välkommen in på provkörning</p>
           <p className="font-semibold">EX30 är äntligen här</p>
-          <button
-            className="w-[188px] h-[48px] mt-[14px] rounded-md bg-[white] hover:bg-white/50 text-[16px] text-black font-bold border-[1px] border-translucent hover:border-[white] transition duration-300 ease-in-out"
-            onClick={() =>
-              (window.location.href = "https://www.volvocars.com/se/l/premiar/")
-            }
-          >
+          <button className="w-[188px] h-[48px] mt-[14px] rounded-md bg-[white] hover:bg-white/50 text-[16px] text-black font-bold border-[1px] border-translucent hover:border-[white] transition duration-300 ease-in-out">
             Upptäck mer
           </button>
         </span>
