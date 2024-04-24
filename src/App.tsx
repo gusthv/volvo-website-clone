@@ -2,8 +2,10 @@ import { Navbar, Home } from "./components";
 
 const App = () => {
   return (
-    <div className="w-screen h-screen chosenFont">
-      <Navbar />
+    <div>
+      <section className="fixed z-30">
+        <Navbar />
+      </section>
       <Home />
     </div>
   );
